@@ -121,5 +121,7 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = (
-    print(os.path.join(BASE_DIR, "assets")),
+    os.path.join(BASE_DIR, "assets"),
 )
+
+print(os.path.join(BASE_DIR, "assets"))
