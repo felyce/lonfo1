@@ -124,4 +124,6 @@ STATICFILES_DIRS = (
     os.path.join(BASE_DIR, "assets"),
 )
 
+# このようにすると、BASE_DIR/assets が実際どのフォルダに設定されているかわかります。
+# もし、自分の意図したフォルダではないとき、設定しなおせばOKです。
 print(os.path.join(BASE_DIR, "assets"))
